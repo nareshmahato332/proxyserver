@@ -8,4 +8,4 @@ services:
     volumes:
       - ./nginx.conf:/etc/nginx/conf.d/default.conf:ro
   web:
-    image: firstapptest  # this will use httpd:latest
+    image: helloapp  # this will use httpd:latest
