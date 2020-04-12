@@ -122,7 +122,6 @@ RUN set -x \
 
 EXPOSE 80
 
-STOPSIGNAL SIGTERM
 
 ENTRYPOINT ["/bin/sh","-c","nginx -g 'daemon off;'"]
 
